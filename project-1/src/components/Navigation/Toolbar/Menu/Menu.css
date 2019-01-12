@@ -1,0 +1,15 @@
+.Menu {
+    display: flex;
+    align-items: center;
+}
+
+.Menu p {
+    margin-left: 10px;
+    color: white;
+}
+
+@media (max-width: 499px) {
+    .Menu p {
+        display: none;
+    }
+}
