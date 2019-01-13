@@ -1,5 +1,5 @@
 import React from 'react';
-import Aux from '../../../hoc/Aux';
+import Aux from '../../../hoc/Aux/Aux';
 import Button, {BUTTON_TYPE_SUCCESS, BUTTON_TYPE_DANGER} from '../../UI/Button/Button'
 
 const OrderSummary = (props) => {
