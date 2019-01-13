@@ -6,7 +6,6 @@ const Menu = (props) => {
     return (
         <div className={Classes.Menu} onClick={props.clicked}>
             <Hamburger/>
-            <p>Menu</p>
         </div>
     )
 };

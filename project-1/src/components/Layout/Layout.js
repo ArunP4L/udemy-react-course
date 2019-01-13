@@ -8,7 +8,7 @@ import Classes from './Layout.css';
 class Layout extends Component {
 
     state = {
-        showSideDrawer: true,
+        showSideDrawer: false,
     };
 
     closeSideDraw = () => {
