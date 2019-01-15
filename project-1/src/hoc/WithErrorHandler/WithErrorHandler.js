@@ -22,7 +22,7 @@ const WithErrorHandler = (WrappedComponent, axious) => {
         errorAcknowledged = () => {
             this.setState({error: null});
         };
-        
+
         componentWillUnmount() {
             axious.interceptors.request.eject(this.requestInterceptor);
             axious.interceptors.response.eject(this.responseInterceptor);
